@@ -41,20 +41,28 @@ to the proposal
 ## Getting Started
 Clone the repository:
 
-`git clone https://github.com/esdras-sena/private-voting`
-`cd private-voting`
+```bash
+git clone https://github.com/esdras-sena/private-voting
+cd private-voting
+```
 
 Install dependencies:
 
-`npm install`
+```bash
+npm install
+```
 
 Compile contracts:
 
-`npx hardhat compile`
+```bash
+npx hardhat compile
+```
 
 Run tests:
 
-`npx hardhat test`
+```bash
+npx hardhat test
+```
 
 ## Acknowledgments
 Tornado Cash: The architecture and approach of the privacy in this system are heavily inspired by Tornado Cash’s zk-SNARKs-based anonymity mechanism.
