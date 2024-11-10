@@ -5,12 +5,12 @@ This project is a privacy-preserving, on-chain identity and voting system using 
 This protocol allows individuals to cast votes without revealing their identities. Zero-knowledge proofs and OnchainID are employed to verify the legitimacy of votes and the claim of share without exposing any personal information, ensuring that all counted votes are valid.
 
 ## Key Features
-ERC7208: all the code is composable, mutable and extensible thanks to ERC7208
-Anonymity: Voter identities and choices remain private, inspired by the privacy architecture of Tornado Cash.
-zk-SNARKs for Privacy: The protocol uses zk-SNARK proofs to cast vote and claim share.
-Profit-Sharing Mechanism: Integrated into the system is a profit-sharing component that distributes a portion of the protocol's revenue among the voters that voted for the winner movie.
-Reliability: A robust system architecture ensures the correct count of valid votes without exposing voters' information.
-Soul Bounded Tokens: soul bounded tokens(SBT) are used to make onchainIDs, so in this way we can make sure that is 1 vote per person
+ERC7208: all the code is composable, mutable and extensible thanks to ERC7208<br>
+Anonymity: Voter identities and choices remain private, inspired by the privacy architecture of Tornado Cash.<br>
+zk-SNARKs for Privacy: The protocol uses zk-SNARK proofs to cast vote and claim share.<br>
+Profit-Sharing Mechanism: Integrated into the system is a profit-sharing component that distributes a portion of the protocol's revenue among the voters that voted for the winner movie<br>
+Reliability: A robust system architecture ensures the correct count of valid votes without exposing voters' information.<br>
+Soul Bounded Tokens: soul bounded tokens(SBT) are used to make onchainIDs, so in this way we can make sure that is 1 vote per person<br>
 
 
 ## How It Works
