@@ -14,18 +14,18 @@ Soul Bounded Tokens: soul bounded tokens(SBT) are used to make onchainIDs, so in
 
 
 ## How It Works
-Registration: Voters are registered through a secure process , where they obtain a SBT for his ticket, this SBT represent voting eligibility without revealing the identity of the owner.
-Voting: Voters submit the commitment along with their vote choice. These proofs confirm the voter's eligibility and the vote’s validity.
+Registration: Voters are registered through a secure process, where they obtain a SBT for his ticket, this SBT represent voting eligibility without revealing the identity of the owner.<br>
+Voting: Voters submit the commitment along with their vote choice. These proofs confirm the voter's eligibility and the vote’s validity.<br>
 Profit Distribution: A fraction of the winner movie revenue is shared among the ones who voted for
-the movie, this share can be claimed after the verification of the proof
+the movie, this share can be claimed after the verification of the proof<br>
 
 
 ## Project Structure
-ERC7208: is used as base for the project structure
-zk-SNARKs: Zero-knowledge proofs for private vote validation.
-SBT contracts: Contracts to issue, revoke and recover onchainIDs
-Ballots contracts: Contracts to execute the vote process.
-Profit Sharing contracts: Contracts that verify the proof of the claimer and distributes the share
+ERC7208: is used as base for the project structure<br>
+zk-SNARKs: Zero-knowledge proofs for private vote validation.<br>
+SBT contracts: Contracts to issue, revoke and recover onchainIDs<br>
+Ballots contracts: Contracts to execute the vote process.<br>
+Profit Sharing contracts: Contracts that verify the proof of the claimer and distributes the share.<br>
 
 ## Security measures
 In order to cast a vote, the voter should send the commitment hash, the commitment hash is the hash of the secret and nullifier (Hash(secret, nullifier))
